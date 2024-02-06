@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  },
+  "scripts": {
+    "start-server": "mockoon-cli start --data ./mock.json",
+    "cy:run": "npx cypress run --headed --browser chrome",
+    "tests": "npm run start-server & wait-on http://localhost:3000 & npm run cy:run"
+  }
+}

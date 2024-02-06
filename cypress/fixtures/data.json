@@ -1,0 +1,25 @@
+{
+  "correctRequestBody": {
+    "userName": "Widget Adapter",
+    "documentsInfo": {
+      "documentType": "Passport",
+      "documentNumber": "Z1233ABC"
+    },
+    "userInfo": {
+      "Address": "Kristine, Tallinn",
+      "Country": "Estonia",
+      "phone": "408-867-5309"
+    }
+  },
+  "incorrectRequestBody":{
+    "documentsInfo": {
+      "documentType": "Passport",
+      "documentNumber": "Z1233ABC"
+    },
+    "userInfo": {
+      "Address": "Kristine, Tallinn",
+      "Country": "Estonia",
+      "phone": "408-867-5309"
+    }
+  }
+}
