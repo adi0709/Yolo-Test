@@ -22,3 +22,7 @@ This repo contains a set of Automation tests for the Create User Application.
     `npm i`
 6.  Execute the tests by running the following commands  
     `npm run tests`
+7.  Install k6 to your system to execute performance tests
+    `brew install k6`
+8.  Execute the performance tests by running the following commands
+    `k6 run cypress/performanceTest/performanceTest.js`
